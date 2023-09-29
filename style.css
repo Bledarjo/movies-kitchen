@@ -3,13 +3,15 @@ header {
     background-color:03071E;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2%;
+    height: 30px;
 
 }
 
 #logo {
-  width: 5%;
-  height: auto;
+  width: 70px;
+  height: 70px;
 }
 
 #site-title {
@@ -21,9 +23,13 @@ header {
 }
 
 .menu { 
+  display: none;
     color: FFBA08 ;
+}
 
-
+#menu_ico {
+  width: 50px;
+  height: 50px;
 }
 
 #top-kitchen img {
@@ -153,9 +159,15 @@ main {
 
 footer { 
     background-color : #03071E ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
 
 }
 
-#footer-links { 
-    color:FFBA08 ;
+.footer-items{ 
+  color: #FFBA08;
+  font-family: oswald ;
+  margin: 10px;
 }
