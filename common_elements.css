@@ -1,0 +1,64 @@
+
+/* */
+
+body{}
+
+h1 {
+  font-family: 'Holtwood One SC', serif;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+}
+
+p {font-family: 'Quicksand', sans-serif;}
+
+
+/* HEADER */
+
+header {
+    background-color:#03071E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    height: 1.875em;
+}
+
+#logo {
+  width: 4.375em;
+  height: 4.375em;
+}
+
+#site-title {
+    color: #FFBA08;
+    font-family: oswald ;
+    font-size: 2.5em;
+}
+
+.menu { 
+  display: none;
+    color: FFBA08 ;
+}
+
+#menu_ico {
+  width: 3.125em;
+  height: 3.125em;
+}
+
+
+/* FOOTER */
+footer { 
+  background-color : #03071E ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.375em;
+
+}
+
+.footer-items{ 
+color: #FFBA08;
+font-family: oswald ;
+margin: 0.5em;
+}
