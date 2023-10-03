@@ -223,6 +223,14 @@
     padding: 2em 0em 2em 2em;
 }
 
+.quantity p{
+    font-size: large;
+}
+
+.bold_recipe{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: medium;
+}
 .ingredient_text{
     color: white;
     padding: 2em 2em 1em 2em;
@@ -340,12 +348,33 @@
 
 }
 
+.movie_info_button{
+    padding: 2em 0 0em 3em;
+}
+
+#movie_info_button_open{
+    color: #FFBA08;
+    background-color: #03071E;
+    border: solid #FFBA08 1px ;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+#movie_info_button_closed{
+    color: #FFBA08;
+    background-color: #03071E;
+    border: solid #FFBA08 1px ;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+}
+
 .movie_infos_line_1{
     display: flex;
     align-items: start;
     justify-content: space-between;
     border-top: solid #FFBA08 1px;
-    padding-top: 2em;
+    padding-top: 1em;
     
 }
 

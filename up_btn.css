@@ -1,5 +1,6 @@
+
 .up_btn{
-    display: flex; /* <-- ON /OFF - flex | none */
+    display: none;
     justify-content: center;
     align-items: center;
     height: 80px;
@@ -7,12 +8,15 @@
     background: #FFBA08;
     border-radius: 50%;
     position: fixed;
-    right: 5%;
-    bottom: 8%;
+    right: 3%;
+    bottom: 10%;
     cursor: pointer;
-
 }
+
 
 .icone_up_btn{
     width: 50px;
 }
+
+
+
