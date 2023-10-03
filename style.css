@@ -8,7 +8,7 @@ header {
 }
 
 #logo {
-  width: 5%;
+  width: 15%;
   height: auto;
 }
 
@@ -69,12 +69,10 @@ main {
     width: 40%;
 }
 
-.large-plate>img {
 
-    width: 500px;
-}
+
 .slider {
-    border: 1px solid red;
+    
     width: 400px;
     height: 250px;
     overflow: hidden;
@@ -84,12 +82,12 @@ main {
    
   }
   .slider-content{
-    border: 1px solid blue;
+   
     width:6800px ;
     height: 250px;
     position: relative;
     animation-name: slider;
-    animation-duration: 16s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
