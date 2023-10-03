@@ -1,0 +1,93 @@
+header {
+    background-color: #03071E;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#logo {
+    width: 8%;
+    height: 8%;
+}
+
+#site-title {
+    color: #FFBA08;
+    font-family: Helvetica;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#kitchen_top {
+    width: 100%;
+   
+}
+.menu {
+    color: #FFBA08;
+    padding:2%;
+}
+.element-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3em;
+}
+h2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2em;  
+}
+
+
+main .Boissons div {
+    max-height: max-content;
+    justify-content: space-between;
+    width: auto;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.photogramme {
+    width: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+
+.box-title {
+    background-color: #FFBA08;
+    display: flex;
+    border-radius: 10%;
+    padding: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: 20%;
+    border-bottom: 20%;
+}
+
+#bottom-kitchen img {
+    width: 100%;
+    padding-top: 10%;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    color: #FFBA08;
+    background-color: #03071E;
+    padding-bottom: 8%;
+    padding: 0%;
+}
