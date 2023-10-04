@@ -36,6 +36,7 @@
     margin: min(20px);
 }
 
+
 /* |picture PHOTOGRAMME ---- */
 .dishes_picture{
     display: flex;
@@ -54,15 +55,27 @@
 .dishes_title{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+    color: #03071E;
+    text-decoration: none;
+    transition: 0.1s;
 }
+
+
 
 /* |cadre title PHOTOGRAMME */
 .box_dishes_title {
+    display: flex;
+    justify-content: center;
     background-color: #FFBA08;
     border: solid black 1px;
     border-radius: 10px;
     padding: 5px;
     box-shadow: 3px 5px 5px rgb(207, 207, 207);
+    transition: 0.2s;
+}
+
+.box_dishes_title:hover {
+    box-shadow: 3px 5px 5px rgb(0, 0, 0);
 }
 
 /* *** BOTTOM entrance part **************************************************/
