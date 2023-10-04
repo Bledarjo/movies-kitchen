@@ -28,54 +28,45 @@ header {
     color: #FFBA08;
     padding:2%;
 }
-.element-content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 3em;
-}
 h2 {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 2em;  
+    margin-bottom: 6em;  
+    margin-top: 4em;
 }
-
-
-main .Boissons div {
-    max-height: max-content;
-    justify-content: space-between;
-    width: auto;
-}
-
-.img {
+.element-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
+ 
 }
 
 .photogramme {
-    width: 5%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    border-radius: 10%;
-    padding: 5px;
+    justify-content: space-between;
+    margin-left: 5%; 
 }
 
+.photogramme img{
+    border-radius: 10%;
+    max-width: 90%;
+
+}
 
 .box-title {
-    background-color: #FFBA08;
+    padding: 6%;
+    text-align: center;
+    margin: 10%;
     display: flex;
+}
+
+.box-title p {
+    background-color: #FFBA08;
     border-radius: 10%;
-    padding: 2%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
-    margin-top: 20%;
-    border-bottom: 20%;
+
 }
 
 #bottom-kitchen img {
