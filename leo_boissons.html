@@ -1,95 +1,136 @@
-<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="leo_boissons.css">
-
-
-</head>
-
-<header>
-
-    <img id="logo" src="/git_hub/ico/logo.png" alt="">
-
-    <h1 id="site-title">MOVIE KITCHEN</h1>
-
-    <nav class="menu">
-        <p href="url" ;>Entrées</p>
-        <p href="url" ;>Plats</p>
-        <p href="url" ;>Desserts</p>
-        <p href="url" ;>Boissons</p>
-
-    </nav>
-</header>
-
-
-<body>
-    <main>
+<!DOCTYPE html>
+<html lang="en">  
+<!-- BACK --> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <div>
-            <img id="kitchen_top" src="git_hub/ico/kitchen_top.png" alt="">
-        </div>  
+        <!-- FEUILLES CSS -->
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="common_elements.css">
+        <link rel="stylesheet" href="style_catg.css">
+        <link rel="stylesheet" href="up_btn.css">
 
-       
+        <!--GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&family=Holtwood+One+SC&family=Inter:wght@300;400;600&family=Quicksand&display=swap" rel="stylesheet">
 
-           <div class="Title h2">
-            <h2>
-            LES BOISSONS
-            </h2>
-           </div>
+        <title>BOISSONS/MOVIE KITCHEN</title> 
+    </head>
 
-           <div class= "element-content">
-           
-           
-               <div class="photogramme">
-                <img src="/git_hub/photogrammes/vignette_harry_potter.jpg" alt="Bière au beurre">
-               </div>
+<!-- FRONT -->
+    <body>
+        
+        <!-- HEADER -->
+        <header class="header">
+
+            <img id="logo" src="git_hub/ico/logo.png" alt="">
+        
+            <h1 id="site-title">MOVIE KITCHEN</h1>
+
+            <img id="menu_ico" src="git_hub/ico/menu-burger.png" alt="">
+
+            <nav class="menu">
+            <p href = "url";>ENTREES</p>
+            <p href ="url";>PLATS</p>
+            <p href = "url";>DESSERTS</p>
+            <p href ="url";>BOISSON</p>
+            </nav>
             
-               <div class="photogramme">
-                 <img src="/git_hub/photogrammes/vignette_back_futur.jpg" alt="Thé glacé">
-                </div>
-            
-                <div class="photogramme">
-                 <img src="/git_hub/photogrammes/vignette_james_bond.jpg" alt="Vodka Martini">
-                </div>
-              
-                <div class="photogramme">
-                 <img src="/git_hub/photogrammes/vignette_big_lebowski.jpg" alt="White russian">
-                </div>
+        </header>
+
+        <!-- MAIN CONTENT -->
+        <main>
+
+            <!-- ***TOP KITCHEN ICO **************************************************************-->
+            <div id="top-kitchen">
+            <img src="git_hub/ico/kitchen_top_x2.png" alt="étagère du haut">
             </div>
 
-            <ul class="box-title">
-              
-                  <li id="Bière">  <p>La bière au beurre d'Harry Potter</p> </li>
-                
-                  <li id="Thé"> <p>Le thé glacé de Retour vers le futur</p> </li>
-                 
-                  <li id="Martini"> <p>Le martini vodka de James Bond</p> </li>
-                   
-                  <li id="White"> <p>Le white russian de Big Lebowski</p> </li>
-                </ul>   
-          
+            <!-- [ENTRANCE PART] ----------------------------------------------------------------->
+            <section id="entrance_section">
+            
+                <!--- CATEGORIE TITLE ------------------------>
+                <h1 id="entrance_section_title"> LES BOISSONS</h1>
+   
+                <!--- PHOTOGRAMMES LINE ------------------>
+                <div id="dishes_line"> 
 
-        <div id="bottom-kitchen">
-            <img src="git_hub/ico/kitchen_bottom.png" alt="">
+                    <!-- PHOTOGRAMME 1 ----->
+                    <div class="dishes_bloc">
+
+                        <img class="dishes_picture" src="git_hub/photogrammes/vignette_harry_potter.jpg" alt="La belle et le Clochard">
+
+                        
+                        <a class="dishes_btn" href="/boissons_biere_au_beurre.html">La bière au beurre d'Harry Potter</a>
+                        
+
+                    </div>
+
+                    <!-- PHOTOGRAMME 2----->
+                    <div class="dishes_bloc">
+
+                        <img class="dishes_picture" src="git_hub/photogrammes/vignette_back_futur.jpg" alt="Garfield">
+
+                        <a class="dishes_btn" href="/boissons_the_glace.html">Le thé glacé de Retour vers le futur</a>
+                        
+                        
+                    </div>
+
+                    <!-- PHOTOGRAMME 3----->
+                    <div class="dishes_bloc">
+
+                        <img class="dishes_picture"src="git_hub/photogrammes/vignette_james_bond.jpg" alt="Pulp Fiction">
+
+                        <div class="box_dishes_title">
+                            <p class="dishes_title">Le martini vodka de James Bond</p>
+                        </div>                      
+
+                    </div>
+
+                    <!-- PHOTOGRAMME 4----->
+                    <div class="dishes_bloc">
+
+                        <img class="dishes_picture" src="git_hub/photogrammes/vignette_big_lebowski.jpg" alt="La soupe aux choux">
+                        
+                        <div class="box_dishes_title">
+
+                            <p class="dishes_title">Le white russian de Big Lebowski</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            
+                <!--- ***BOTTOM KITCHEN ICO ******************************************-->
+                <div id="bottom_kitchen">
+                    <img src="git_hub/ico/kitchen_bottom_x2.png" alt="">
+                </div>
+
+            </section>
+
+            
+        </main>
+
+        <!-- Btn "BACK TO UP" -->   
+        <div class="up_btn">
+            <img src="git_hub/ico/arrow-up-solid-1.svg" alt="" class="icone_up_btn">
         </div>
-    </main>
-</body>
 
+        <!-- FOOTER -->       
+        <footer>
+        <p class="footer-items">A propos</p>>
+        <p class="footer-items">|</p>
+        <p class="footer-items">Mention légales</p>
+        </footer>
 
-<footer>
+        <!-- SCRIPT JS ----------------->   
+        <script src="up_btn.js"></script>
+        <script src="recipe_switch.js"></script>
 
-    <ul id="footer-links">
-        <li>A propos</li>
-        <li>Mention légales</li>
-    </ul>
-</footer>
-<script src='main.js'></script>
-</body>
+    </body>
 
 </html>
