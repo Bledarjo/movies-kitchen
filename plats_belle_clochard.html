@@ -3,6 +3,7 @@
 <html lang="en">  
 <!-- BACK --> 
     <head>
+      
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
@@ -17,27 +18,42 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&family=Holtwood+One+SC&family=Inter:wght@300;400;600&family=Quicksand&display=swap" rel="stylesheet">
 
-        <title>Belle et le clochard</title> 
+        <title>La belle et le clochard</title> 
+
     </head>
 
 <!-- FRONT -->
     <body>
         
-        <!-- HEADER -->
-        <header class="header">
+         <!-- HEADER -->
+         <header class="header">
 
-            <img id="logo" src="images/ico/logo.png" alt="">
+            <img id="logo" src="git_hub/ico/logo.png" href="index.html" alt=""></img>
         
-            <h1 id="site-title">MOVIE KITCHEN</h1>
+            <h1 id="site-title" href="index.html">MOVIE KITCHEN</h1>
+         <div>
+            <input id="toggle" type="checkbox"></input>
 
-            <img id="menu_ico" src="images/ico/menu-burger.png" alt="">
+            <label for="toggle" class="hamburger">
+                <div class="top-bun"></div>
+                <div class="meat"></div>
+                <div class="bottom-bun"></div>
+            </label>
 
-            <nav class="menu">
-            <p href = "url";>ENTREES</p>
-            <p href ="url";>PLATS</p>
-            <p href = "url";>DESSERTS</p>
-            <p href ="url";>BOISSON</p>
-            </nav>
+        <div class="nav">
+            <div class="nav-wrapper">
+                <nav>
+                    <a href="#">ENTREES</a><br>
+                    <a href="#">PLATS</a><br>
+                    <a href="#">DESSERTS</a><br>
+                    <a href="#">BOISSON</a>
+                </nav>
+            </div>
+        </div>
+    </div>       
+           
+
+            
             
         </header>
 
@@ -46,7 +62,7 @@
 
             <!-- ***TOP KITCHEN ICO **************************************************************-->
             <div id="top-kitchen">
-            <img src="images/ico/kitchen_top_x2.png" alt="étagère du haut">
+            <img src="git_hub/ico/kitchen_top_x2.png" alt="étagère du haut">
             </div>
 
             <!-- [RECIPES PART] ---------------------------------------------------------------->           
@@ -63,7 +79,7 @@
 
                         <!-- CINE PICTURE ------------->
                         <div class="recipe_top_img_box">
-                            <img src="images/cinellustration/desk/cine_belle_clochard_screen.jpg" alt="La belle et le clochard">
+                            <img src="git_hub/cinellustration/desk/cine_belle_clochard_screen.jpg" alt="La belle et le clochard">
                         </div>
 
                         <!-- NOTICE RECIPE-->
@@ -204,10 +220,12 @@
                                 <div class="preparation_box" style="display: none">
 
                                     <div class="time_prepa">
-                                    <p>Temps total : 20mn
+
+                                    <p>Temps total : 1H35mn
                                     <br>
                                     <br>
-                                    Préparation : 10mn &#124; Repos : 20mn &#124; cuisson : 30mn</p>
+                                    Préparation : 30mn &#124; <!--Repos : 20mn &#124; --> Cuisson : 1H05mn</p>
+
                                     </div>
 
                                     <div class="preparation_text">
@@ -255,7 +273,7 @@
                                  -->  
 
                                 <div class="recipe_bottom_img">
-                                <img src="images/plats/desk/spagetthis_table.jpg" alt="Spahettis Bolognaise">
+                                <img src="git_hub/plats/desk/spagetthis_table.jpg" alt="Spahettis Bolognaise">
                                 </div>
                             </div>                            
     
@@ -301,7 +319,7 @@
                                         </p>
 
                                         <div class="imdb_box">
-                                            <img id="imdb_logo" src="images/ico/IMDB_Logo_small.png" href="https://www.imdb.com/title/tt0048280/?ref_=fn_al_tt_1">
+                                            <img id="imdb_logo" src="git_hub/ico/IMDB_Logo_small.png" href="https://www.imdb.com/title/tt0048280/?ref_=fn_al_tt_1">
                                         </div>
                              
                                         </div>
@@ -337,7 +355,7 @@
 
             <!-- CUTLERY TRANSITION ---------------------------------------------------------->
             <div class="cutlery_trans">
-                <img src="images/ico/ico_spoon.png">
+                <img src="git_hub/ico/ico_spoon.png" alt="">
             </div>
 
 
@@ -348,7 +366,7 @@
 
         <!-- Btn "BACK TO UP" -->   
         <div class="up_btn">
-            <img src="images/ico/arrow-up-solid-1.svg" alt="" class="icone_up_btn">
+            <img src="git_hub/ico/arrow-up-solid-1.svg" alt="" class="icone_up_btn">
         </div>
 
         <!-- FOOTER -->       
