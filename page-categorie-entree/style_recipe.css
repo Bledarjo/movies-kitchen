@@ -166,7 +166,7 @@
 }
 .ingredient_text{
     color: white;
-    padding: 2em 2em 1em 2em;
+    padding: 2em 2em 0em 2em;
     line-height: 1.5;
 }
 .padding_ingredients_food{
@@ -210,10 +210,11 @@
 
 /* -- |IMAGE plat terminé --------------------------------- */
 .recipe_bottom_img{
+    border-top: solid #FFBA08 1px;
     display: flex;
     justify-content: center;
     margin: 2em 0 3em 0;
-    padding: 0em 2em 0em 2em;
+    padding: 2em 2em 0em 2em;
 }
 .recipe_bottom_img img{
     border-radius: 25px;
@@ -312,7 +313,7 @@
 }
 
 .movie_infos p {
-    color:antiquewhite;
+    color: antiquewhite;
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.5;
 }
