@@ -7,10 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <!-- FEUILLES CSS -->
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="common_elements.css">
-        <link rel="stylesheet" href="style_catg.css">
-        <link rel="stylesheet" href="up_btn.css">
+        <link rel="stylesheet" href="/CSS/reset.css">
+        <link rel="stylesheet" href="/CSS/common_elements.css">
+        <link rel="stylesheet" href="/CSS/style_catg.css">
+        <link rel="stylesheet" href="/CSS/slider.css">
+        <link rel="stylesheet" href="/CSS/hover.css">
 
         <!--GOOGLE FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,18 +27,31 @@
         <!-- HEADER -->
         <header class="header">
 
-            <img id="logo" src="images/ico/logo.png" href="index.html" alt="">
+            <img id="logo" src="images/ico/logo.png" alt="">
         
-            <h1 id="site-title" href="index.html">MOVIE KITCHEN</h1>
+            <h1 id="site-title">MOVIE KITCHEN</h1>
 
-            <img id="menu_ico" src="images/ico/menu-burger.png" alt="">
+            <div>
+                <input id="toggle" type="checkbox"></input>
 
-            <nav class="menu">
-            <p href = "url";>ENTREES</p>
-            <p href ="url";>PLATS</p>
-            <p href = "url";>DESSERTS</p>
-            <p href ="url";>BOISSON</p>
-            </nav>
+                <label for="toggle" class="hamburger">
+                    <div class="top-bun"></div>
+                    <div class="meat"></div>
+                    <div class="bottom-bun"></div>
+                </label>
+
+                <div class="nav">
+                    <div class="nav-wrapper">
+                        <nav>
+                            <a href="#">ENTREES</a><br>
+                            <a href="#">PLATS</a><br>
+                            <a href="#">DESSERTS</a><br>
+                            <a href="#">BOISSON</a>
+                        </nav>
+                    </div>
+            </div>
+
+        </div>                     
             
         </header>
 
@@ -53,7 +67,7 @@
             <section id="entrance_section">
             
                 <!--- CATEGORIE TITLE ------------------------>
-                <h1 id="entrance_section_title"> LES PLATS</h1>
+                <h1 id="entrance_section_title"> LES DESSERTS</h1>
    
                 <!--- PHOTOGRAMMES LINE ------------------>
                 <div id="dishes_line"> 
@@ -124,8 +138,9 @@
         </footer>
 
         <!-- SCRIPT JS ----------------->   
-        <script src="up_btn.js"></script>
-        <script src="recipe_switch.js"></script>
+        
+        <script src="JS/recipe_switch.js"></script>
+        <script src="JS/up_btn.js"></script>
 
     </body>
 
