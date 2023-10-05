@@ -7,17 +7,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <!-- FEUILLES CSS -->
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="common_elements.css">
-        <link rel="stylesheet" href="style_recipe.css">
-        <link rel="stylesheet" href="up_btn.css">
+        <link rel="stylesheet" href="/CSS/reset.css">
+        <link rel="stylesheet" href="/CSS/common_elements.css">
+        <link rel="stylesheet" href="/CSS/style_recipe.css">
+        <link rel="stylesheet" href="/CSS/up_btn.css">
 
         <!--GOOGLE FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&family=Holtwood+One+SC&family=Inter:wght@300;400;600&family=Quicksand&display=swap" rel="stylesheet">
 
-        <title>Ratatouille</title> 
+        <title>La Belle et la Bête</title> 
     </head>
 
 <!-- FRONT -->
@@ -25,20 +25,32 @@
         
         <!-- HEADER -->
         <header class="header">
-
-            <img id="logo" src="/images/ico/logo.png" alt="">
-        
-            <h1 id="site-title">MOVIE KITCHEN</h1>
-
-            <img id="menu_ico" src="/images/ico/menu-burger.png" alt="">
-
-            <nav class="menu">
-            <p href = "url";>ENTREES</p>
-            <p href ="url";>PLATS</p>
-            <p href = "url";>DESSERTS</p>
-            <p href ="url";>BOISSON</p>
-            </nav>
             
+            <img id="logo" src="/images/ico/logo.png" href="index.html" alt=""></img>
+            
+            <h1 id="site-title" href="index.html">MOVIE KITCHEN</h1>
+
+            <div>
+                <input id="toggle" type="checkbox"></input>
+
+                <label for="toggle" class="hamburger">
+                    <div class="top-bun"></div>
+                    <div class="meat"></div>
+                    <div class="bottom-bun"></div>
+                </label>
+
+                <div class="nav">
+                <div class="nav-wrapper">
+                    <nav>
+                        <a href="#">ENTREES</a><br>
+                        <a href="#">PLATS</a><br>
+                        <a href="#">DESSERTS</a><br>
+                        <a href="#">BOISSON</a>
+                    </nav>
+                </div>
+            </div>
+           
+                     
         </header>
 
         <!-- MAIN CONTENT -->
@@ -59,11 +71,11 @@
                     <div class="recipe_content_box">
 
                         <!-- TITLE RECIPE ----->
-                        <h1 class="recipe_title"> <span class="color_h1_catg"> PLATS </span> &#124 LA RATATOUILLE </h1>
+                        <h1 class="recipe_title"> <span class="color_h1_catg"> PLATS </span> &#124 LE PLATEAU DE HORS-D'OEUVRE</h1>
 
                         <!-- CINE PICTURE ------------->
                         <div class="recipe_top_img_box">
-                            <img src="/images/cinellustration/desk/cine_ratatouille_screen.jpg" alt="La belle et le clochard">
+                            <img src="/images/cinellustration/desk/cine_belle_bete_screen.jpg" alt="La Belle et la Bête">
                         </div>
 
                         <!-- NOTICE RECIPE-->
@@ -112,42 +124,48 @@
 
                                     <div class="ingredient_text">
 
-                                    <!-- l1 
-                                    <p class="bold_recipe"> POUR LES PÂTES :
+                                    
+                                        <p class="bold_recipe"> 
                                         <br>
                                         <br>
-                                    </p>
-                                -->
+                                         </p>
 
                                     <div class="ingredient_tab_text">
                                         <div class="tab_text_1">
                                             <p>
-                                                1brin de thym
+                                                600g de melon 
                                                 <br>
-                                                1 feuille de laurier 
+                                                500g d’asperges vertes cuites 
                                                 <br>
-                                                Poivre 
+                                                250g de tomates cerises 
                                                 <br>
-                                                Sel 
+                                                175g de Mozzarella 
                                                 <br>
-                                                3 gousses d’ail  
+                                                150g de Jambon Serrano 
                                                 <br>
-
+                                                125g de jambon de parme
+                                                <br>
                                             </p>
                                         </div>
 
                                         <div class="tab_text_2">
-                                            <p> 350g aubergines 
+                                            <p>
+                                                3 poivrons 
                                                 <br>
-                                                350g courgette
+                                                4 gousses d’ail 
                                                 <br>
-                                                350g poivrons 
+                                                5 brins de Romarin 
                                                 <br>
-                                                500g tomates 
+                                                75g de beurre 
                                                 <br>
-                                                6cas d’huile d’olive 
+                                                Huile d’olive 
                                                 <br>
-                                                </p>
+                                                Sel, poivre 
+                                                <br>
+
+
+
+                                            </p>
 
                                         </div>
 
@@ -158,7 +176,6 @@
                                         <br>
                                         <br>
                                     </p>
-                                    l3
                                     <div class="ingredient_tab_text">
                                         <div class="tab_text_1">
                                             <p>
@@ -184,7 +201,7 @@
                                             </p>
                                         </div>
                                     </div> 
-                                    l4
+                                    
                                     <p>                                             
                                         POUR LA SAUCE :
                                         <br>
@@ -195,13 +212,15 @@
 
                                         <div class="tab_text_1">
                                             <p>
-                                                                                              <br>
+                                                
+                                                
+                                            <br>
                                             </p>
                                         </div>
 
                                         <div class="tab_text_2">
                                             <p>
-                                                
+                                            
                                             </p>
                                         </div>
 
@@ -209,43 +228,41 @@
                                                                                                           
                                     </div>
                         
-                                </div> 
+                                </div>
 
                                 <div class="preparation_box" style="display: none">
 
                                     <div class="time_prepa">
-                                    <p>Temps total : 1h
+                                    <p>Temps total : 60min
                                     <br>
                                     <br>
-                                    Préparation : 30mn &#124; Repos : 20mn &#124; cuisson : 30mn</p>
+                                    Préparation : 20mn &#124;  Repos : 20mn &#124;  cuisson : 20min</p>
                                     </div>
 
                                     <div class="preparation_text">
                                 
                                     <p> 
-                                        1- Coupez les tomates pelées en quartiers,
-                                        <br>
-                                        2- les aubergines et les courgettes en rondelles.
-                                        <br>
-                                        3- Emincez les poivrons en lamelles	
-                                        <br>
-                                        4- et l'oignon en rouelles.		
-                                        <br>
-                                        5- Chauffez 2 cuillères à soupe d'huile dans une poêle
-                                        <br>
-                                        6- et faites-y fondre les oignons et les poivrons.	
-                                        <br>	
-                                        7- Lorsqu'ils sont tendres, ajoutez les tomates, l'ail haché, le thym et le laurier.	
-                                        <br>
-                                        8- Salez, poivrez et laissez mijoter doucement à couvert durant 45 minutes  
-                                        <br>
-                                        9- Pendant ce temps, préparez les aubergines et les courgettes. Faites les cuire séparément ou non dans l'huile d'olive pendant 15 minutes
-                                        <br>
-                                        10- Vérifiez la cuisson des légumes pour qu'ils ne soient plus fermes. Ajoutez les alors au mélange de tomates et prolongez la cuisson sur tout petit feu pendant 10 min.
-                                        <br>
-                                        11- Salez et poivrez si besoin.
-                                        <br>
-         
+                                         1- Coupez le melon en deux et retirez les pépins. Dans une moitié faites des billes à l'aide d'une cuillère parisienne, dans la seconde, coupez de fines tranches. 
+                                         <br>
+                                         <br>
+                                         2- Préparez des brochettes avec les billes de melon en alternant avec du jambon de Parme.
+                                         <br>
+                                         <br>
+                                         3- Enveloppez chaque asperge dans une tranche de jambon serrano et faites-les poêler avec du beurre durant 5 minutes. Épluchez les gousses d'ail, coupez-les en deux et ajoutez-les pendant la cuisson pour apporter du goût.
+                                         <br>
+                                         <br>
+                                         4- Lavez les tomates cerises et coupez-les en deux. Faites de même avec les poivrons et retirez les pépins. Détaillez-les ensuite en lanières.
+                                         <br>
+                                         <br>
+                                         5- Faites revenir les poivrons et les tomates cerises dans de l'huile. Coupez la mozzarella en dés et une fois les légumes froids, incorporez-la au mélange de légumes.
+                                         <br>
+                                         <br>
+                                         6- Disposez les poivrons, tomates cerises et mozzarella dans des petites verrines. Arrosez d'un filet d'huile d'olive.
+                                         <br>
+                                         <br>
+                                         7- Dressez votre plateau de hors-d’œuvre avec le melon, les asperges au jambon poêlées, les brochettes, les verrines, et un peu de charcuterie et des tomates cerises pour la décoration
+                                         <br>
+                                         <br>
                                     </p>
 
                                     </div>
@@ -257,7 +274,7 @@
                                  -->  
 
                                 <div class="recipe_bottom_img">
-                                <img src="/images/plats/desk/ratatouille_table.jpg" alt="La ratatouille">
+                                <img src="/images/plats/desk/canapes_table.jpg" >
                                 </div>
                             </div>                            
     
@@ -277,7 +294,7 @@
 
                             <div class="movie_content">
                                 <div class="movie_video">
-                                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3YG4h5GbTqU?si=-S1-zd7Jpm2nXU8I&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                </div>
+                                    <iframe width="90%" height="500" src="https://www.youtube-nocookie.com/embed/o3H49_zM6RE?si=cIBUsvjuvCrbl4gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                </div>
 
                                 <div class="movie_info_button">
                                     <button id="movie_info_button_open" style="display:none;">&#x23F7;  en savoir +</button>
@@ -294,11 +311,11 @@
 
 
                                         <p> 
-                                            <span class="movie_infos_bold">Titre:</span> "Ratatouille" <!--(<span class="movie_infos_italic">"Lady and the Tramp")</span> -->
+                                            <span class="movie_infos_bold">Titre:</span> "La Belle et la Bête" <!--(<span class="movie_infos_italic">"Lady and the Tramp")</span>-->
                                             <br>
-                                            <span class="movie_infos_bold">Année :</span> 2007
+                                            <span class="movie_infos_bold">Année :</span> 1991
                                             <br>
-                                            <span class="movie_infos_bold">Genre :</span> animation, aventure, comédie
+                                            <span class="movie_infos_bold">Genre :</span> animation
                                         </p>
 
                                         <div class="imdb_box">
@@ -309,16 +326,16 @@
 
                                         <p>
                                         <br>
-                                        <span class="movie_infos_bold"> Réalisation:</span> Brad Bird, Jan Pinkava
+                                        <span class="movie_infos_bold"> Réalisation:</span> Gary Trousdale, Kirk Wise
                                         <br>
-                                        <span class="movie_infos_bold">Scénario:</span> Brad Bird, Jan Pinkava
+                                        <span class="movie_infos_bold">Scénario:</span> 	Roger Aller, Linda Woolverton, Joseph Ranft
                                         <br>
-                                        <span class="movie_infos_bold">Casting:</span> Patton Oswalt, Lou Romano, Ian Holm
+                                        <span class="movie_infos_bold">Casting:</span>  Paige O'Hara, Richard White 
                                         <br>
                                         <br>
                                         <span class="movie_infos_bold">Synopsis:</span>
                                         <br>
-                                         Rémy, un jeune rat, vit dans la campagne française en périphérie de Paris avec son père, Django, son frère, Émile, et un clan de rats, dans le grenier de la maison d'une vieille dame à la retraite. Contrairement aux membres de sa famille, Rémy est un grand admirateur de la cuisine française. Grâce à son odorat très fin, le jeune rat connaît instinctivement les ingrédients à ajouter aux plats pour les rendre meilleurs et plus subtils.
+                                        L'histoire présente un petit village provincial français, entouré d'une forêt profonde et montagneuse. Une jeune et belle fille prénommée Belle vit à l'écart du village, avec son père Maurice. Elle est rêveuse et romantique. Les habitants des lieux vantent sa beauté mais la trouvent étrange en raison de sa passion pour les livres et sa manière de se comporter avec eux. Tandis que les villageois chantent, Belle se rend chez le libraire afin de lui rendre un livre qu'elle a terminé de lire.
                                         </p>
 
                                     </div>
@@ -360,8 +377,8 @@
         </footer>
 
         <!-- SCRIPT JS ----------------->   
-        <script src="up_btn.js"></script>
-        <script src="recipe_switch.js"></script>
+        <script src="/JS/up_btn.js"></script>
+        <script src="/JS/recipe_switch.js"></script>
 
     </body>
 
