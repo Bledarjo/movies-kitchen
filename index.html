@@ -31,14 +31,28 @@
         
             <h1 id="site-title" href="index.html">MOVIE KITCHEN</h1>
 
-            <img id="menu_ico" src="images/ico/menu-burger.png" alt="">
+            <input id="toggle" type="checkbox"></input>
 
-            <nav class="menu">
-            <p href = "url";>ENTREES</p>
-            <p href ="url";>PLATS</p>
-            <p href = "url";>DESSERTS</p>
-            <p href ="url";>BOISSON</p>
-            </nav>
+            <label for="toggle" class="hamburger">
+                <div class="top-bun"></div>
+                <div class="meat"></div>
+                <div class="bottom-bun"></div>
+            </label>
+
+        <div class="nav">
+            <div class="nav-wrapper">
+                <nav>
+                    <a href="#">ENTREES</a><br>
+                    <a href="#">PLATS</a><br>
+                    <a href="#">DESSERTS</a><br>
+                    <a href="#">BOISSON</a>
+                </nav>
+            </div>
+        </div>
+           
+           
+
+            
             
         </header>
 
@@ -67,91 +81,103 @@
 
             </div>  <!-- end row1 -->
 
+            <span id="sl_play" class="sl_command"></span>
+            <span id="sl_pause" class="sl_command"></span>
 
-            <div id="row2">
-            <div class="slider">
-                        <div class="slider-content">
-             
-                            <img href="" src="images/photogrammes/vignette_asterix.jpg" alt="">
-                             
-                             <img src="images/photogrammes/vignette_back_futur.jpg" alt="">
-                             
-                             <img src="images/photogrammes/vignette_belle_bete.jpg" alt="">
-                        
-                             <img src="images/photogrammes/vignette_belle_clochard.jpg" alt="">
-                             
-                             <img src="images/photogrammes/vignette_big_lebowski.jpg" alt="">
-                        
-                             <img src="images/photogrammes/vignette_bronzes.jpg" alt="">
-                        
-                             <img src="images/photogrammes/vignette_chihiro.jpg" alt="">
-                       
-                             <img src="images/photogrammes/vignette_garfield.jpg" alt="">
-                        
-                             <img src="images/photogrammes/vignette_harry_potter.jpg" alt="">
-                       
-                             <img src="images/photogrammes/vignette_james_bond.jpg" alt="">
-                       
-                             <img src="images/photogrammes/vignette_kuzco.jpg" alt="">
-                        
-                             <img src="images/photogrammes/vignette_peau_ane.jpg" alt="">
-                        
-                             <img src="images/photogrammes/vignette_pulp_fiction.jpg" alt="">
-                        
-                             <img src="images/photogrammes/vignette_ratatouille.jpg" alt="">
-                       
-                             <img src="images/photogrammes/vignette_simpsons.jpg" alt="">
-                       
-                             <img src="images/photogrammes/vignette_soupe_choux.jpg" alt=""> 
+            <span id="sl_i1" class="sl_command sl_i"></span>
+            <span id="sl_i2" class="sl_command sl_i"></span>
+            <span id="sl_i3" class="sl_command sl_i"></span>
+            <span id="sl_i4" class="sl_command sl_i"></span>
+
+            <section id="row2">
                 
-                            
+                <a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
+                <a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
+            <div class="container">
+                <div class="c_slider"></div>
+                
+              
+                        <div class="slider">
+                            <figure>
+                                <a href=""><img src="images/photogrammes/vignette_asterix.jpg" alt=""></a>
+                                <figcaption>Le pudding</figcaption>
+                            </figure><!--
+
+                        --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_back_futur.jpg" alt=""></a>
+                                <figcaption>Le thé glacé de Doc</figcaption>
+                            </figure><!--
+                        --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_belle_bete.jpg" alt=""></a>
+                                <figcaption>Plateau d'hors d'oeuvres</figcaption>
+                            </figure><!--
+                        --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_belle_clochard.jpg" alt=""></a>
+                                <figcaption>Spaghettis boulettes de viande</figcaption>
+                        </figure><!--
+                        --><figure> 
+                                <a href=""><img src="images/photogrammes/vignette_big_lebowski.jpg" alt=""></a>
+                                <figcaption>White Russian</figcaption>
+                            </figure><!--
+                            --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_bronzes.jpg" alt=""></a>
+                                <figcaption>La crêpe au suc'</figcaption>
+                            </figure><!--
+                        --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_chihiro.jpg" alt=""></a>
+                                <figcaption>Tempura aux crevettes</figcaption>
+                            </figure><!--
+                            --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_garfield.jpg" alt=""></a>
+                                <figcaption>Lasagnes</figcaption>
+                            </figure><!--
+                            --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_harry_potter.jpg" alt=""></a>
+                                <figcaption>La bière au beurre</figcaption>
+                            </figure><!--
+                        --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_james_bond.jpg" alt=""></a>
+                                <figcaption>Le Vodka Martini</figcaption>
+                            </figure><!--
+                            --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_kuzco.jpg" alt=""></a>
+                                <figcaption>Les gougères aux épinards</figcaption>
+                            </figure><!--
+                            --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_peau_ane.jpg" alt=""></a>
+                                <figcaption>Le cake d'amour</figcaption>
+                            </figure><!--
+                            --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_pulp_fiction.jpg" alt=""></a>
+                                <figcaption>Le Big Kahuna Burger</figcaption>
+                            </figure><!--
+                        --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_ratatouille.jpg" alt=""></a>
+                                <figcaption>La ratatouille</figcaption>
+                            </figure><!--
+                            --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_simpsons.jpg" alt=""></a>
+                                <figcaption>Les donuts</figcaption>
+                            </figure><!--
+                        --><figure>
+                                <a href=""><img src="images/photogrammes/vignette_soupe_choux.jpg" alt=""></a>
+                                <figcaption>La soupe aux choux</figcaption>
+                            </figure>
                         </div>
+                    </div>
+            
+                    <span id="timeline"></span>
+              
+              
+            </section>
+            
+        
 
                             <!--Modèle de la hierarchie reste a definir-->
-                        <ul>
-                            <li> <link src="" alt="le thé glacé"></li>
-                            <li> <link src="" alt="Le vodka Martini"></li>
-                            <li> <link src="" alt="White Russian"></li>
-                            <li> <link src="" alt="Les donuts"></li>
-                            <li> <link src="" alt="Le pudding "></li>
-                            <li> <link src="" alt="La crêpe au suc'"></li>
-                            <li> <link src="" alt="Le cake d'amour"></li>
-                            <li> <link src="" alt="La ratatouille"></li>
-                            <li> <link src="" alt="Les gougères"></li>
-                            <li> <link src="" alt="Hors d'oeuvre"></li>
-                            <li> <link src="" alt="Tempura de crevettes"></li>
-                            <li> <link src="" alt="La soupe aux choux"></li>
-                            <li> <link src="" alt="Spaghettis boulettes de viande"></li>
-                            <li> <link src="" alt="Le Kahuna Burger"></li>
-                            <li> <link src="" alt="Les lasagnes"></li>
                      
 
-                        </ul>
-
-                        <ul>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                            <article></article>
-                        </ul>
-
-
                     
-            </div>
-
-            </div>  <!-- end row2 -->
+           
 
         </div> <!-- end color-box -->
 
