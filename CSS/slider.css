@@ -1,94 +1,11 @@
-/* SLIDER */
+/* new version */
 
-/*.slider {
-    width: 400px;
-    height: 250px;
-    overflow: hidden;
-    background-image:(imag);
-
-    border-radius:20px 20px 20px 0px;
-   
-  }
-  .slider-content{
-    width: 7500px ;
-    height: 310px;
-    position: relative;
-    animation-name: slider;
-    animation-duration: 120s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate;
-
-  }
-  .slider-content img{
-    width: 400px;
-  }
-
-  @keyframes slider {
-    0% {
-      left: -200px;
-    }
-    6.25% {
-      left: -600px;
-    }
-    12.50% {
-      left: -1000px;
-    }
-    18.75% {
-      left: -1400px;
-    }
-    25% {
-      left: -1800px;
-    }
-    31.25% {
-      left: -2200px;
-    }
-    37.50% {
-      left: -2600px;
-    }
-    43.75% {
-      left: -3000px;
-    }
-    50% {
-      left: -3400px;
-    }
-    56.25% {
-      left: -3800px;
-    }
-    62.50% {
-      left: -4200px;
-    }
-    68.75% {
-      left: -4600px;
-    }
-    75% {
-      left: -5000px;
-    }
-    81.25% {
-      left: -5400px;
-    }
-    87.50% {
-      left: -5800px;
-    }
-    100% {
-      left: -6200px;
-    }
-  }*/
-  
-  /* new version */
-  #row2/*slideshow*/ {
+#row2/*slideshow*/ {
     position: relative;
     width: 500px;
     height: 310px;
-    padding: 15px;/*nous pouvons supp la fin*/
-    margin: 0 auto 2em;
-    border: 1px solid #ddd;
-    background: #FFF;
-    /* CSS3 effects */
-    background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
-    border-radius: 2px 2px 2px 2px;
-    box-shadow: 0 0 3px rgba(0,0,0, 0.2);
-  }
+    border-radius: 25px;
+}
 /* avanced box-shadow*/
 #row2:before,/*supp aussi*/
 #row2:after {
@@ -117,7 +34,7 @@
 	height: 310px;
 	overflow: hidden;
 }
-#timeline {
+/* #timeline {
 	position: absolute;
 	background: #999;
 	bottom: 15px;
@@ -127,12 +44,12 @@
 	background: rgba(214,98,13,.8);
 	width: 0;
 	/* fonction d'animation */
-	animation: timeliner 8s infinite;
-}
-@keyframes timeliner {
+	/* animation: timeliner 8s infinite;
+} */
+/* @keyframes timeliner {
 	0%, 25%, 50%, 75%, 100%	{ width: 0;		}
 	20%, 45%, 70%, 90%		{ width: 500px;	}
-}
+} */ */
 /* on prévoit un petit espace gris pour la timeline */
 #row2 .container:after {
 	position:absolute;
@@ -166,28 +83,6 @@
 	width: 100%; height: 100%;
 	box-shadow: 0 0 65px rgba(0,0,0, 0.5) inset;
 }
-/* styles de nos légendes */
-#row2 figcaption {
-	position:absolute;
-	left:0; right:0; bottom: 5px;
-	padding: 20px;
-	margin:0;
-	border-top: 1px solid rgb(225,225,225);
-	text-align:center;
-	letter-spacing: 0.05em;
-	word-spacing: 0.05em;
-	font-family: Georgia, Times, serif;
-	background: #fff;
-	background: rgba(255,255,255,0.7);
-	color: #555;
-	text-shadow: -1px -1px 0 rgba(255,255,255,0.3);
-  animation: figcaptionner 8s infinite;
-}
-@keyframes figcaptionner {
-	0%, 25%, 50%, 75%, 100%						{ bottom: -55px;	}
-	5%, 20%, 30%, 45%, 55%, 70%, 80%, 95%		{ bottom: 5px;		}
-}
-
 @keyframes slider {
   0%,100% {
     top: 0px;

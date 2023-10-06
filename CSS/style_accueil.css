@@ -1,3 +1,7 @@
+body{
+
+}
+
 
 /* TOP */
 
@@ -20,6 +24,7 @@ h1 {
   box-sizing: content-box;
   width: 100%;
   background-color: #FFBA08;
+  padding: 10px 0 10px 0;
   margin-top: 50px;
   margin-bottom: 50px;
   /* FLEX */
@@ -64,6 +69,10 @@ h1 {
 p{
   text-align: center;
   font-size: 1.5rem;
+}
+
+#slogan_smartP{
+  display: none;
 }
 
 #bottom-kitchen{
