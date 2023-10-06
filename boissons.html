@@ -10,14 +10,18 @@
         <link rel="stylesheet" href="/CSS/reset.css">
         <link rel="stylesheet" href="/CSS/common_elements.css">
         <link rel="stylesheet" href="/CSS/style_catg.css">
+        <link rel="stylesheet" href="/CSS/slider.css">
+        <link rel="stylesheet" href="/CSS/hover.css">
         <link rel="stylesheet" href="/CSS/up_btn.css">
+        <link rel="stylesheet" href="/CSS/@mediaquerry.css">
+        <link rel="stylesheet" href="/CSS/@mediaquerry_cat.css">
 
         <!--GOOGLE FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&family=Holtwood+One+SC&family=Inter:wght@300;400;600&family=Quicksand&display=swap" rel="stylesheet">
 
-        <title>ENTREES /MOVIE KITCHEN</title> 
+        <title>BOISSONS/MOVIE KITCHEN</title> 
     </head>
 
 <!-- FRONT -->
@@ -26,19 +30,31 @@
         <!-- HEADER -->
         <header class="header">
 
-            <img id="logo" src="/images/ico/logo.png" alt="">
+            <a href="index.html"><img id="logo" src="/images/ico/logo.png"></a>
         
-            <h1 id="site-title">MOVIE KITCHEN</h1>
+            <h1 id="site-title" href="index.html">MOVIE KITCHEN</h1>
 
-            <img id="menu_ico" src="/images/ico/menu-burger.png" alt="">
+            <div>
+                <input id="toggle" type="checkbox"></input>
 
-            <nav class="menu">
-            <p href = "url";>ENTREES</p>
-            <p href ="url";>PLATS</p>
-            <p href = "url";>DESSERTS</p>
-            <p href ="url";>BOISSON</p>
-            </nav>
-            
+                <label for="toggle" class="hamburger">
+                    <div class="top-bun"></div>
+                    <div class="meat"></div>
+                    <div class="bottom-bun"></div>
+                </label>
+
+            <div class="nav">
+                <div class="nav-wrapper">
+                    <nav>
+                        <a href="entree.html">ENTRÉES</a><br>
+                        <a href="plats.html">PLATS</a><br>
+                        <a href="dessert.html">DESSERTS</a><br>
+                        <a href="boissons.html">BOISSON</a>
+                    </nav>
+                </div>
+                
+            </div>
+                     
         </header>
 
         <!-- MAIN CONTENT -->
@@ -46,14 +62,14 @@
 
             <!-- ***TOP KITCHEN ICO **************************************************************-->
             <div id="top-kitchen">
-            <img src="/images/ico/kitchen_top_x2.png" alt="étagère du haut">
+            <img src="images/ico/kitchen_top_x2.png" alt="étagère du haut">
             </div>
 
             <!-- [ENTRANCE PART] ----------------------------------------------------------------->
             <section id="entrance_section">
             
                 <!--- CATEGORIE TITLE ------------------------>
-                <h1 id="entrance_section_title"> LES ENTREES</h1>
+                <h1 id="entrance_section_title"> LES BOISSONS</h1>
    
                 <!--- PHOTOGRAMMES LINE ------------------>
                 <div id="dishes_line"> 
@@ -61,46 +77,39 @@
                     <!-- PHOTOGRAMME 1 ----->
                     <div class="dishes_bloc">
 
-                        <img class="dishes_picture" src="/images/photogrammes/vignette_belle_clochard.jpg" alt="La belle et le Clochard">
+                        <img class="dishes_picture" src="/images/photogrammes/vignette_harry_potter.jpg" alt="La belle et le Clochard">
 
-                        <div class="box_dishes_title">
-                        <p class="dishes_title">La ratatouille</p>
-                        </div>
+                        
+                        <a class="dishes_btn" href="/boissons_biere_au_beurre.html">La bière au beurre</a>
+                        
 
                     </div>
 
                     <!-- PHOTOGRAMME 2----->
                     <div class="dishes_bloc">
 
-                        <img class="dishes_picture" src="/images/photogrammes/vignette_garfield.jpg" alt="Garfield">
+                        <img class="dishes_picture" src="/images/photogrammes/vignette_back_futur.jpg" alt="Garfield">
 
-                        <div class="box_dishes_title">
-                            <p class="dishes_title">Le tempura de crevettes</p>
-                        </div>
+                        <a class="dishes_btn" href="/boissons_the_glace.html">Le thé glacé</a>
+                        
                         
                     </div>
 
                     <!-- PHOTOGRAMME 3----->
                     <div class="dishes_bloc">
 
-                        <img class="dishes_picture"src="/images/photogrammes/vignette_pulp_fiction.jpg" alt="Pulp Fiction">
+                        <img class="dishes_picture"src="/images/photogrammes/vignette_james_bond.jpg" alt="Pulp Fiction">
 
-                        <div class="box_dishes_title">
-                            <p class="dishes_title">Le plateau de Hors-d'oeuvre</p>
-                        </div>                      
+                        <a class="dishes_btn" href="/boissons_martini_vodka.html">Le martini vodka</a>                
 
                     </div>
 
                     <!-- PHOTOGRAMME 4----->
                     <div class="dishes_bloc">
 
-                        <img class="dishes_picture" src="/images/photogrammes/vignette_soupe_choux.jpg" alt="La soupe aux choux">
+                        <img class="dishes_picture" src="/images/photogrammes/vignette_big_lebowski.jpg" alt="La soupe aux choux">
                         
-                        <div class="box_dishes_title">
-
-                            <p class="dishes_title">Les gougères aux épinards</p>
-
-                        </div>
+                        <a class="dishes_btn" href="/boissons_white_russian.html">Le white russian</a>
 
                     </div>
 

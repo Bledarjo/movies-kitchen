@@ -71,6 +71,10 @@ p{
   font-size: 1.5rem;
 }
 
+#slogan_smartP{
+  display: none;
+}
+
 #bottom-kitchen{
   margin-top: 50px;
   width: 100%;

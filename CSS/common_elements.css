@@ -8,6 +8,7 @@ h2 {
   font-family: 'Inter', sans-serif;
 }
 p {font-family: 'Quicksand', sans-serif;}
+
 /* HEADER */
 header {
     background-color:#03071E;
@@ -26,6 +27,7 @@ header {
     font-family: oswald ;
     font-size: 2.5em;
 }
+
 /*NAV ET HAMBURGER*/
 #toggle {
   display: none;
@@ -39,7 +41,7 @@ header {
   right: 5%;
   top: 3%;
   width: 2em;
-  height: 45px;
+  height: 2.813rem;
   z-index: 5;
 }
 .hamburger div {
