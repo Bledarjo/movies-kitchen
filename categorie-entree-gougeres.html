@@ -3,23 +3,21 @@
 <html lang="en">  
 <!-- BACK --> 
     <head>
-      
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <!-- FEUILLES CSS -->
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="common_elements.css">
-        <link rel="stylesheet" href="style_recipe.css">
-        <link rel="stylesheet" href="up_btn.css">
-
+        <link rel="stylesheet" href="/CSS/reset.css">
+        <link rel="stylesheet" href="/CSS/common_elements.css">
+        <link rel="stylesheet" href="/CSS/style_recipe.css">
+        <link rel="stylesheet" href="/CSS/up_btn.css">
+        
         <!--GOOGLE FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&family=Holtwood+One+SC&family=Inter:wght@300;400;600&family=Quicksand&display=swap" rel="stylesheet">
 
-        <title>La belle et le clochard</title> 
-
+        <title>Kuzco, l'empereur megalo</title> 
     </head>
 
 <!-- FRONT -->
@@ -27,20 +25,32 @@
         
         <!-- HEADER -->
         <header class="header">
-
-            <img id="logo" src="images/ico/logo.png" alt="">
-        
-            <h1 id="site-title">MOVIE KITCHEN</h1>
-
-            <img id="menu_ico" src="images/ico/menu-burger.png" alt="">
-
-            <nav class="menu">
-            <p href = "url";>ENTREES</p>
-            <p href ="url";>PLATS</p>
-            <p href = "url";>DESSERTS</p>
-            <p href ="url";>BOISSON</p>
-            </nav>
             
+            <img id="logo" src="/images/ico/logo.png" href="index.html" alt=""></img>
+            
+            <h1 id="site-title" href="index.html">MOVIE KITCHEN</h1>
+
+            <div>
+                <input id="toggle" type="checkbox"></input>
+
+                <label for="toggle" class="hamburger">
+                    <div class="top-bun"></div>
+                    <div class="meat"></div>
+                    <div class="bottom-bun"></div>
+                </label>
+
+                <div class="nav">
+                <div class="nav-wrapper">
+                    <nav>
+                        <a href="#">ENTREES</a><br>
+                        <a href="#">PLATS</a><br>
+                        <a href="#">DESSERTS</a><br>
+                        <a href="#">BOISSON</a>
+                    </nav>
+                </div>
+            </div>
+           
+                     
         </header>
 
         <!-- MAIN CONTENT -->
@@ -48,7 +58,7 @@
 
             <!-- ***TOP KITCHEN ICO **************************************************************-->
             <div id="top-kitchen">
-            <img src="images/ico/kitchen_top_x2.png" alt="étagère du haut">
+            <img src="/images/ico/kitchen_top_x2.png" alt="étagère du haut">
             </div>
 
             <!-- [RECIPES PART] ---------------------------------------------------------------->           
@@ -61,11 +71,11 @@
                     <div class="recipe_content_box">
 
                         <!-- TITLE RECIPE ----->
-                        <h1 class="recipe_title"> <span class="color_h1_catg"> PLATS </span> &#124 LES SPAGHETTIS AUX BOULETTES DE VIANDE</h1>
+                        <h1 class="recipe_title"> <span class="color_h1_catg"> ENTRÉES </span> &#124 LES GOUGÈRES AUX ÉPINARDS</h1>
 
                         <!-- CINE PICTURE ------------->
                         <div class="recipe_top_img_box">
-                            <img src="images/cinellustration/desk/cine_belle_clochard_screen.jpg" alt="La belle et le clochard">
+                            <img src="/images/cinellustration/smartphone/cine_kuzko_screen.jpg" alt="La belle et le clochard">
                         </div>
 
                         <!-- NOTICE RECIPE-->
@@ -114,86 +124,74 @@
 
                                     <div class="ingredient_text">
 
-                                    <!-- l1 -->
-                                    <p class="bold_recipe"> POUR LES PÂTES :
+                                     
+                                    <p class="bold_recipe"> 
                                         <br>
                                         <br>
-                                    </p>
-
+                                    </p> 
                                     <div class="ingredient_tab_text">
                                         <div class="tab_text_1">
                                             <p>
-                                                Spaghettis : 400 g
-                                            </p>
+                                             
+
+
+                                                50 g de beurre
+                                                <br>
+                                                17 cl d’eau
+                                                <br>
+                                                100 g de farine
+                                                <br>
+                                                3 œufs
+                                                <br>
+                                               
                                         </div>
 
                                         <div class="tab_text_2">
                                             <p>
+
+                                                100 g de fromage râpé à pâte dure 
+                                                <br>
+                                                75 g de pousses d’épinards frais
+                                                <br>
+                                                1 pincée de noix de muscade
+                                                <br>
+                                                Sel fin, poivre du moulin
+                                                <br>
                                                 </p>
 
                                         </div>
 
                                     </div>
-                                    <!-- l2 -->
+                                    
                                     <p>                                             
-                                        POUR LES BOULETTES :
+                                    
                                         <br>
                                         <br>
                                     </p>
-                                    <!-- l3 -->
+                                    <!-- -->
                                     <div class="ingredient_tab_text">
                                         <div class="tab_text_1">
-                                            <p>
-                                                Bœuf haché : 450 g
-                                                <br> 
-                                                Lait : 50 ml
-                                                <br> 
-                                                Œuf(s) : 1
-                                                <br> 
-                                                Parmesan : 25g                                                <br>
-                                            </p>
+                                            <p></p>
+                                                                                            
                                         </div>
 
                                         <div class="tab_text_2">
                                             <p>
-                                                Chapelure : 25 g
-                                                <br> 
-                                                Ail : 2 gousse(s)
-                                                <br> 
-                                                Oignon(s) : 1
-                                                <br> 
-                                                Persil hâché : 1 c. à soupe
+                                                
                                             </p>
                                         </div>
                                     </div> 
-                                    <!-- l4 -->
-                                    <p>                                             
-                                        POUR LA SAUCE :
-                                        <br>
-                                        <br> 
-                                    </p>
-                                    <!-- l5 -->
                                     <div class="ingredient_tab_text">
 
                                         <div class="tab_text_1">
                                             <p>
-                                                Ail : 2 gousse(s)
-                                                <br>
-                                                Concentré de tomate : 2 c. à soupe
-                                                <br>
-                                                Laurier : 2 feuilles
-                                                <br>
-                                                Oignon(s) : 1                                                <br>
+                                                                                               
                                             </p>
                                         </div>
 
                                         <div class="tab_text_2">
                                             <p>
-                                                Origan séché : 1 c. à soupe
-                                                <br>
-                                                Tomate(s) pelée(s) : 1 boîte(s)
-                                                <br>
-                                                Huile d'olive
+                                               
                                             </p>
                                         </div>
 
@@ -206,48 +204,39 @@
                                 <div class="preparation_box" style="display: none">
 
                                     <div class="time_prepa">
-
-                                    <p>Temps total : 1H35mn
+                                    <p>Temps total : 1h10min 
                                     <br>
                                     <br>
-                                    Préparation : 30mn &#124; <!--Repos : 20mn &#124; --> Cuisson : 1H05mn</p>
-
+                                    Préparation : 20min &#124; Repos : 20mn &#124; cuisson : 30mn</p>
                                     </div>
 
                                     <div class="preparation_text">
                                 
                                     <p> 
-                                    1. Préparez les boulettes :
-                                    <br>
-                                    <br>
-                                    2. Pelez et hachez l’ail et l’oignon.
-                                    <br>
-                                    <br>
-                                    3. Mélangez tous les ingrédients dans un saladier : l’œuf, la chapelure, la viande, l’ail et l’oignon, le parmesan et le lait. Salez et poivrez.
-                                    <br>
-                                    <br>
-                                    4 Dans une grande sauteuse à bords hauts, faites chauffer l’huile d’olive. Déposez-y les boulettes de viande et laissez dorer quelques minutes sur toutes les faces. Retirez et réservez.
-                                    <br>
-                                    <br>
-                                    5. Formez des boulettes de vos mains mouillées.
-                                    <br>
-                                    <br>
-                                    6. Préparez la sauce :
-                                    <br>
-                                    <br>
-                                    7. Pelez et hachez l’ail et l’oignon.
-                                    <br>
-                                    <br>
-                                    8. Faites-les revenir dans la sauteuse pendant 3 minutes à feu moyen, en remuant. Ajoutez les tomates pelées, le concentré, l’origan, le laurier, salez et poivrez.
-                                    <br>
-                                    <br>
-                                    9. Ajoutez un grand verre d’eau, couvrez et laissez mijoter 30 minutes à feu doux.
-                                    <br>
-                                    <br>
-                                    10. Ajoutez les boulettes et poursuivez la cuisson 30 minutes.
-                                    <br>
-                                    <br>
-                                    11. En fin de cuisson, faites cuire les spaghettis dans un grand volume d’eau bouillante salée. Servez par assiette avec une louche de sauce et de boulettes, puis saupoudrez de parmesan.
+                                        1 – Préchauffez le four à 180°C (th.6)
+                                        <br>
+                                        2 – Lavez, séchez et hachez finement les feuilles d’épinards.
+                                        <br>
+                                        3 – Râpez le fromage, et si vous utilisez du fromage râpé, hachez-le afin qu’il se mélange plus facilement.
+                                        <br>
+                                        4 – Préparez la pâte à choux.
+                                        <br>
+                                        5 – Portez à ébullition l’eau avec le beurre coupé en petits morceaux.
+                                        <br>
+                                        6 – Une fois le beurre fondu, retirez du feu et ajoutez la farine d’un coup. Mélangez très vivement à l’aide d’une spatule, jusqu’à obtenir une pâte souple.
+                                        <br>
+                                        7 – Rallumez le feu sous la casserole et faites se dessécher la pâte à feu doux pendant 2 à 3 mn, en la remuant sans cesse. Une fine croûte doit se former au fond de la casserole.
+                                        <br>
+                                        8 – Versez la pâte dans un saladier et laissez-la refroidir 5 mn.
+                                        <br>
+                                        9 – Ajoutez les œufs un à un en mélangeant vivement entre chaque. Si nécessaire, utilisez un batteur électrique.
+                                        <br>
+                                        10 – Ajoutez le fromage, les épinards hachés, puis assaisonnez de sel, poivre, muscade.
+                                        <br>
+                                        11 – Sur une plaque recouverte de papier sulfurisé, déposez des cuillerées de pâte bien espacées – elles vont gonfler à la cuisson. Vous pouvez également utiliser une poche à douille.
+                                        <br>
+                                        12 – Enfournez pour 25 à 30 mn, en veillant à ne pas ouvrir la porte du four pendant les vingt premières minutes de cuisson, afin d’éviter que les choux ne dégonflent.
+                                        <br>
                                     </p>
 
                                     </div>
@@ -259,7 +248,7 @@
                                  -->  
 
                                 <div class="recipe_bottom_img">
-                                <img src="images/plats/desk/spagetthis_table.jpg" alt="Spahettis Bolognaise">
+                                <img src="/images/plats/desk/gougere_table.jpg"  >
                                 </div>
                             </div>                            
     
@@ -279,9 +268,7 @@
 
                             <div class="movie_content">
                                 <div class="movie_video">
-                                    <iframe width="90%" height="500" src="https://www.youtube-nocookie.com/embed/j_RQW8YcCo4?si=a9piXZSSosdGzQZr&amp;start=58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                </div>
-
+                                    <iframe width="90%" height="500" src="https://www.youtube-nocookie.com/embed/AODeS3AfdO4?si=NqqNzOUAFMOQMxiw&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                </div>
                                 <div class="movie_info_button">
                                     <button id="movie_info_button_open" style="display:none;">&#x23F7;  en savoir +</button>
 
@@ -297,31 +284,33 @@
 
 
                                         <p> 
-                                            <span class="movie_infos_bold">Titre:</span> "La Belle et le Clochard" (<span class="movie_infos_italic">"Lady and the Tramp")</span>
+                                            <span class="movie_infos_bold">Titre:</span> "Kuzco, l'empereur mégalo" (<span class="movie_infos_italic">"Lady and the Tramp")</span>
                                             <br>
-                                            <span class="movie_infos_bold">Année :</span> 1955
+                                            <span class="movie_infos_bold">Année :</span> 2001
                                             <br>
-                                            <span class="movie_infos_bold">Genre :</span> animation, aventure, comédie
+                                            <span class="movie_infos_bold">Genre :</span> animation
                                         </p>
 
                                         <div class="imdb_box">
-                                            <img id="imdb_logo" src="images/ico/IMDB_Logo_small.png" href="https://www.imdb.com/title/tt0048280/?ref_=fn_al_tt_1">
+                                            <img id="imdb_logo" src="/images/ico/IMDB_Logo_small.png" href="https://www.imdb.com/title/tt0048280/?ref_=fn_al_tt_1">
                                         </div>
                              
                                         </div>
 
                                         <p>
                                         <br>
-                                        <span class="movie_infos_bold"> Réalisation:</span> Clyde Geronimi, Wilfred Jackson, Hamilton Luske
+                                        <span class="movie_infos_bold"> Réalisation:</span>  Mark Dindal
                                         <br>
-                                        <span class="movie_infos_bold">Scénario:</span> Ward Greene, Erdman Penner, Joe Rinaldi
+                                        <span class="movie_infos_bold">Scénario:</span>David Reynold, Mark Dindal, Chris Williams, Roger Allers
                                         <br>
-                                        <span class="movie_infos_bold">Casting:</span> Barbara Luddy, Larry Roberts, Peggy Lee
+                                        <span class="movie_infos_bold">Casting:</span> Didier Gusti, Élisabeth Wiene,Jacques Frantz 
+                                
                                         <br>
                                         <br>
                                         <span class="movie_infos_bold">Synopsis:</span>
                                         <br>
-                                        Les aventures amoureuses de Lady, ravissant cocker et de Clochard le batard, perturbées par tante Sarah et ses deux adorables chats siamois, Si et Am, diaboliques et sournois.
+                                        Kuzco est un jeune empereur inca très égoïste, impoli, pleurnichard, indifférent, gâté, ignorant et capricieux. Pour ses dix-huit ans, il décide de raser un village afin de se faire construire une résidence, « Kuzcotopia ».
+                                        
                                         </p>
 
                                     </div>
@@ -341,7 +330,7 @@
 
             <!-- CUTLERY TRANSITION ---------------------------------------------------------->
             <div class="cutlery_trans">
-                <img src="images/ico/ico_spoon.png" alt="">
+                <img src="/images/ico/ico_spoon.png">
             </div>
 
 
@@ -352,7 +341,7 @@
 
         <!-- Btn "BACK TO UP" -->   
         <div class="up_btn">
-            <img src="images/ico/arrow-up-solid-1.svg" alt="" class="icone_up_btn">
+            <img src="/images/ico/arrow-up-solid-1.svg" alt="" class="icone_up_btn">
         </div>
 
         <!-- FOOTER -->       
@@ -363,9 +352,12 @@
         </footer>
 
         <!-- SCRIPT JS ----------------->   
-        <script src="up_btn.js"></script>
-        <script src="recipe_switch.js"></script>
+        <script src="/JS/up_btn.js"></script>
+        <script src="/JS/recipe_switch.js"></script>
 
     </body>
 
 </html>
+
+
+
