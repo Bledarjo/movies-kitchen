@@ -10,14 +10,18 @@
         <link rel="stylesheet" href="/CSS/reset.css">
         <link rel="stylesheet" href="/CSS/common_elements.css">
         <link rel="stylesheet" href="/CSS/style_recipe.css">
+        <link rel="stylesheet" href="/CSS/slider.css">
+        <link rel="stylesheet" href="/CSS/hover.css">
         <link rel="stylesheet" href="/CSS/up_btn.css">
+        <link rel="stylesheet" href="/CSS/@mediaquerry.css">
+        <link rel="stylesheet" href="/CSS/@mediaquerry_recp.css">
 
         <!--GOOGLE FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&family=Holtwood+One+SC&family=Inter:wght@300;400;600&family=Quicksand&display=swap" rel="stylesheet">
 
-        <title>Le voyage de Chiiro</title> 
+        <title>Harry Potter</title> 
     </head>
 
 <!-- FRONT -->
@@ -25,9 +29,9 @@
         
         <!-- HEADER -->
         <header class="header">
-            
-            <img id="logo" src="/images/ico/logo.png" href="index.html" alt=""></img>
-            
+
+            <a href="index.html"><img id="logo" src="/images/ico/logo.png"></a>
+        
             <h1 id="site-title" href="index.html">MOVIE KITCHEN</h1>
 
             <div>
@@ -39,19 +43,20 @@
                     <div class="bottom-bun"></div>
                 </label>
 
-                <div class="nav">
+            <div class="nav">
                 <div class="nav-wrapper">
                     <nav>
-                        <a href="#">ENTREES</a><br>
-                        <a href="#">PLATS</a><br>
-                        <a href="#">DESSERTS</a><br>
-                        <a href="#">BOISSON</a>
+                        <a href="entree.html">ENTRÉES</a><br>
+                        <a href="plats.html">PLATS</a><br>
+                        <a href="dessert.html">DESSERTS</a><br>
+                        <a href="boissons.html">BOISSON</a>
                     </nav>
                 </div>
+                
             </div>
-           
                      
         </header>
+
         <!-- MAIN CONTENT -->
         <main>
 
@@ -70,11 +75,11 @@
                     <div class="recipe_content_box">
 
                         <!-- TITLE RECIPE ----->
-                        <h1 class="recipe_title"> <span class="color_h1_catg"> PLATS </span> &#124 LE TEMPURA DE CREVETTES</h1>
+                        <h1 class="recipe_title"> <span class="color_h1_catg"> BOISSONS </span> &#124 LA BIERE AU BEURRE D'HARRY POTTER</h1>
 
                         <!-- CINE PICTURE ------------->
                         <div class="recipe_top_img_box">
-                            <img src="/images/cinellustration/desk/cine_chihiro_screen.jpg">
+                            <img src="images/cinellustration/desk/cine_harryPotter_screen.jpg" alt="La belle et le clochard">
                         </div>
 
                         <!-- NOTICE RECIPE-->
@@ -117,14 +122,14 @@
 
                                     <div class="quantity">
                                             <p>
-                                                POUR 4 PERSONNES
+                                                POUR 1 PERSONNE
                                             </p>
                                     </div>
 
                                     <div class="ingredient_text">
 
                                     <!-- l1 -->
-                                    <p class="bold_recipe">
+                                    <p class="bold_recipe"> POUR LA BIERE :
                                         <br>
                                         <br>
                                     </p>
@@ -132,66 +137,42 @@
                                     <div class="ingredient_tab_text">
                                         <div class="tab_text_1">
                                             <p>
-                                                12 Crevettes crues
-                                                <br>
-                                                100g de farine
-                                                <br>
-                                                1 Jaune d'œuf
-                                                <br>
+                                                Bière : 33 cl
+                                            <br>
+                                                1 pince de gingembre
+                                            <br>
+                                                50 g de sucre roux ou cassonade
                                             </p>
                                         </div>
 
                                         <div class="tab_text_2">
-                                            <p>
-
-                                                15cl d’Eau glacée
-                                                <br>
-                                                Huile de tournesol
-                                                <br>
-                                                Sel poivre
-                                                <br>
-                                                </p>
-
-                                        </div>
+                                            <p> 
+                                               30 g de beurre 
+                                               <br> 
+                                                1 pincée de clous de girofle en poudre
+                                               <br>
+                                                1 pincée de noix de muscade en poudre
+                                               </p>
+                                                 
+                                            </div>
 
                                     </div>
                                     <!-- l2 -->
                                     <p>                                             
-                                        
+                                        POUR LA CHANTILLY :
+                                        <br>
+                                        <br>
                                     </p>
                                     <!-- l3 -->
                                     <div class="ingredient_tab_text">
                                         <div class="tab_text_1">
                                             <p>
-                                                                            
+                                                30 g de sucre
+                                                <br> 
+                                                40 cl de crème liquide entière
                                             </p>
-                                        </div>
-
-                                        <div class="tab_text_2">
-                                            <p>
-                                        
-                                            </p>
-                                        </div>
-                                    </div> 
-                                    <!-- l4 -->
-                                    <p>                                             
-                                        
-                                    </p>
-                                    <!-- l5 -->
-                                    <div class="ingredient_tab_text">
-
-                                        <div class="tab_text_1">
-                                            <p>
-                                                                                           
-                                            </p>
-                                        </div>
-
-                                        <div class="tab_text_2">
-                                            <p></p>
-                                        
-                                            
-                                        </div>
-
+                                        </div>                                          
+                                     
                                     </div>
                                                                                                           
                                     </div>
@@ -201,27 +182,34 @@
                                 <div class="preparation_box" style="display: none">
 
                                     <div class="time_prepa">
-                                    <p>Temps total : 60mn
+                                    <p>Temps total : 20mn
                                     <br>
-                                    <br>
-                                    Préparation : 10mn &#124; Repos : 20mn &#124; cuisson : 30mn</p>
+                                   </p>
                                     </div>
 
                                     <div class="preparation_text">
                                 
                                     <p> 
-                                        1- Décortiquez les crevettes, en conservant la queue et la carapace juste à la base de la queue (afin de pouvoir plus facilement tenir les crevettes au moment de les tremper dans la pâte à frire, puis de les déguster !).
-                                        <br>
-                                        2- Dans un saladier, battez le jaune d'œuf avec l'eau glacée puis la farine (de préférence tamisée afin d'éviter la formation de grumeaux).
-                                        <br>
-                                        3- Dans une casserole, faites chauffer de l'huile pour la friture.
-                                        <br>
-                                        4- Plongez les crevettes dans la pâte (en les tenant par la queue) puis posez-les dans l'huile chaude. Laissez cuire les tempuras jusqu'à ce qu'elles soient bien dorées, puis égouttez-les sur du papier absorbant.
-                                        <br>
-                                        5- Dégustez avec une sauce piquante, une sauce aigre-douce ou une sauce soja (salée ou sucrée selon les goûts de chacun).
-                                        <br>
-                                    </p>
-
+                                    1. Versez la bière dans une casserole et faire chauffer à feu doux.
+                                    <br>
+                                    <br>
+                                    2. Ajouter les épices et mélanger.
+                                    <br>
+                                    <br>
+                                    3. Ajouter le beurre et remuer de nouveau. 
+                                    <br>
+                                    <br>
+                                    4 Pour la chantilly, battre la crème au fouet dans un saladier froid. 
+                                    <br>
+                                    <br>
+                                    5. Ajouter petit à petit le sucre.
+                                    <br>
+                                    <br>
+                                    6. Déposer la bière dans un grand verre et recouvrir de crème fouettée.
+                                    <br>
+                                    <br>
+                                    7. Servir tiède.
+                                    
                                     </div>
 
                                 </div>
@@ -231,7 +219,7 @@
                                  -->  
 
                                 <div class="recipe_bottom_img">
-                                <img src="/images/plats/desk/tempura_table.jpg" alt="">
+                                <img src="images/plats/desk/biere_au_beure_table.jpg" alt="biere_au_beure_table">
                                 </div>
                             </div>                            
     
@@ -251,7 +239,8 @@
 
                             <div class="movie_content">
                                 <div class="movie_video">
-                                    <iframe width="90%" height="500" src="https://www.youtube-nocookie.com/embed/EhIZrZQoHuA?si=AJGNMPa1lV5-A4SS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                </div>
+                                    <iframe width="90%" height="500" src="https://www.youtube.com/embed/nZRHXx4DIqI?si=ATE2KLxKvmh2P3r3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
 
                                 <div class="movie_info_button">
                                     <button id="movie_info_button_open" style="display:none;">&#x23F7;  en savoir +</button>
@@ -268,11 +257,11 @@
 
 
                                         <p> 
-                                            <span class="movie_infos_bold">Titre:</span> "La Belle et le Clochard" (<span class="movie_infos_italic">"Lady and the Tramp")</span>
+                                            <span class="movie_infos_bold">Titre:</span> "Harry Potter et le Prince de sang-mêlé"
                                             <br>
-                                            <span class="movie_infos_bold">Année :</span> 1955
+                                            <span class="movie_infos_bold">Année :</span> 2009
                                             <br>
-                                            <span class="movie_infos_bold">Genre :</span> animation, aventure, comédie
+                                            <span class="movie_infos_bold">Genre :</span> fantastique, action, aventure, famille
                                         </p>
 
                                         <div class="imdb_box">
@@ -283,16 +272,16 @@
 
                                         <p>
                                         <br>
-                                        <span class="movie_infos_bold"> Réalisation:</span> Hayao Miyazaki
+                                        <span class="movie_infos_bold"> Réalisation:</span> David Yates
                                         <br>
-                                        <span class="movie_infos_bold">Scénario:</span> Hayao Miyazaki
+                                        <span class="movie_infos_bold">Scénario:</span> Steve Kloves, J.K. Rowling
                                         <br>
-                                        <span class="movie_infos_bold">Casting:</span> Rumi Hiiragi 
+                                        <span class="movie_infos_bold">Casting:</span> Daniel Radcliff, Emma Watson, Rupert Grint
                                         <br>
                                         <br>
                                         <span class="movie_infos_bold">Synopsis:</span>
                                         <br>
-                                        Chihiro Ogino, dix ans, boude à l’arrière de la voiture de ses parents1 ; ces derniers ont décidé de déménager à la campagne, et la petite fille regrette son ancienne école. En cherchant à rejoindre leur nouvelle maison, ils se perdent au bout d’une route tortueuse et arrivent devant un tunnel.
+                                        Alors que Harry Potter commence sa sixième année à Poudlard, il découvre un vieux livre avec l'inscription "propriété du prince de sang-mêlé". Harry commence à en apprendre davantage sur le passé sombre de Lord Voldemort.
                                         </p>
 
                                     </div>
@@ -312,7 +301,7 @@
 
             <!-- CUTLERY TRANSITION ---------------------------------------------------------->
             <div class="cutlery_trans">
-                <img src="/images/ico/ico_spoon.png">
+                <img src="images/ico/ico_spoon.png">
             </div>
 
 
@@ -323,7 +312,7 @@
 
         <!-- Btn "BACK TO UP" -->   
         <div class="up_btn">
-            <img src="/images/ico/arrow-up-solid-1.svg" alt="" class="icone_up_btn">
+            <img src="images/ico/arrow-up-solid-1.svg" alt="" class="icone_up_btn">
         </div>
 
         <!-- FOOTER -->       
@@ -334,8 +323,8 @@
         </footer>
 
         <!-- SCRIPT JS ----------------->   
-        <script src="/JS/up_btn.js"></script>
-        <script src="/JS/recipe_switch.js"></script>
+        <script src="JS/up_btn.js"></script>
+        <script src="JS/recipe_switch.js"></script>
 
     </body>
 

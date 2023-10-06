@@ -8,10 +8,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <!-- FEUILLES CSS -->
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="common_elements.css">
-        <link rel="stylesheet" href="style_recipe.css">
-        <link rel="stylesheet" href="up_btn.css">
+        <link rel="stylesheet" href="/CSS/reset.css">
+        <link rel="stylesheet" href="/CSS/common_elements.css">
+        <link rel="stylesheet" href="/CSS/style_recipe.css">
+        <link rel="stylesheet" href="/CSS/slider.css">
+        <link rel="stylesheet" href="/CSS/hover.css">
+        <link rel="stylesheet" href="/CSS/up_btn.css">
+
 
         <!--GOOGLE FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,19 +30,31 @@
         <!-- HEADER -->
         <header class="header">
 
-            <img id="logo" src="images/ico/logo.png" alt="">
+            <a href="index.html"><img id="logo" src="/images/ico/logo.png"></a>
         
-            <h1 id="site-title">MOVIE KITCHEN</h1>
+            <h1 id="site-title" href="index.html">MOVIE KITCHEN</h1>
 
-            <img id="menu_ico" src="images/ico/menu-burger.png" alt="">
+            <div>
+                <input id="toggle" type="checkbox"></input>
 
-            <nav class="menu">
-            <p href = "url";>ENTREES</p>
-            <p href ="url";>PLATS</p>
-            <p href = "url";>DESSERTS</p>
-            <p href ="url";>BOISSON</p>
-            </nav>
-            
+                <label for="toggle" class="hamburger">
+                    <div class="top-bun"></div>
+                    <div class="meat"></div>
+                    <div class="bottom-bun"></div>
+                </label>
+
+            <div class="nav">
+                <div class="nav-wrapper">
+                    <nav>
+                        <a href="entree.html">ENTRÉES</a><br>
+                        <a href="plats.html">PLATS</a><br>
+                        <a href="dessert.html">DESSERTS</a><br>
+                        <a href="boissons.html">BOISSON</a>
+                    </nav>
+                </div>
+                
+            </div>
+                     
         </header>
 
         <!-- MAIN CONTENT -->
@@ -64,7 +79,7 @@
 
                         <!-- CINE PICTURE ------------->
                         <div class="recipe_top_img_box">
-                            <img src="images/cinellustration/desk/cine_asterix_screen.jpg" alt="Astérix et cléopatre">
+                            <img src="images/cinellustration/desk/cine_asterix_screen.jpg" alt="Astérix et cléopatre" id="Asterix">
                         </div>
 
                         <!-- NOTICE RECIPE-->
@@ -333,8 +348,8 @@
         </footer>
 
         <!-- SCRIPT JS ----------------->   
-        <script src="up_btn.js"></script>
-        <script src="recipe_switch.js"></script>
+        <script src="JS/up_btn.js"></script>
+        <script src="JS/recipe_switch.js"></script>
 
     </body>
 
